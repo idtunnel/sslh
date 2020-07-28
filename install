@@ -10,7 +10,7 @@ apt upgrade
 apt-get install sslh
 
 #konfigurasi
-wget -O /etc/default/sslh "https://raw.githubusercontent.com/idtunnel/sshtunnel/master/sslh-conf"
+wget -O /etc/default/sslh "https://raw.githubusercontent.com/idtunnel/sslh/master/sslh-conf"
 
 #restart Service
 service ssh restart
